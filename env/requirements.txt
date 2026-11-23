@@ -1,0 +1,17 @@
+scanpy>=1.10
+leidenalg
+igraph
+pyreadr
+GEOparse
+# gseapy / llvmlite: newest versions with a binary wheel for macOS x86_64 + Python 3.10 (newer ones failed to build).
+gseapy==1.1.0
+llvmlite==0.44.0
+numba==0.61.2
+# umap-learn 0.6.0 + scanpy 1.11.5 -> numba TypingError in sc.pp.neighbors; pin the 0.5 series.
+umap-learn==0.5.7
+pynndescent==0.5.13
+scikit-learn
+statsmodels
+scipy==1.13.1   # scanpy 1.11 calls csr_array.getnnz, removed in scipy>=1.14 (crash in sc.pp.neighbors)
+pandas
+matplotlib

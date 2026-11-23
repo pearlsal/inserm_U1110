@@ -1,0 +1,9 @@
+data/
+results/
+logs/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.rds
+*.RData
