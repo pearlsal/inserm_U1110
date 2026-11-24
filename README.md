@@ -1,9 +1,9 @@
-# Claudin-1 (CLDN1) in public human liver data
+# Claudin-1 (CLDN1) in public human liver data. 
 
 Pearl Saldanha · [github.com/pearlsal](https://github.com/pearlsal)
 
 Reproducible re-analysis scripts for Claudin-1 (CLDN1) in public human liver data: a single-cell RNA-seq atlas of
-normal human liver and a bulk NAFLD fibrosis cohort.
+normal human liver and a bulk NAFLD fibrosis cohort. This repo is mainly for self-learning rather than new or novel analysis
 
 ## Data (all public, downloaded by the scripts)
 | Dataset | What | Source |
